@@ -7,8 +7,9 @@ $reasonfirst = $_POST["reasonfirst"];
 $reasonsecond = $_POST["reasonsecond"];
 $reasonthird = $_POST["reasonthird"];
 $c=",";
+var_dump($name);
 
-$str = $goodthingfirst.$c.$goodthingsecond.$c.$goodthingthird.$c.$reasonfirst.$c.$reasonsecond.$c.$reasonthird;
+$str = $name.$c.$goodthingfirst.$c.$goodthingsecond.$c.$goodthingthird.$c.$reasonfirst.$c.$reasonsecond.$c.$reasonthird;
 //File書き込み
 $file = fopen("data.csv","a");	// ファイル読み込み
 fwrite($file, $str);

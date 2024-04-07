@@ -16,5 +16,6 @@
     よかったこと3つめ: <textarea name="goodthingthird" cols="10" rows="10"></textarea><br>
     理由: <textarea name="reasonthird" cols="30" rows="10"></textarea><br>
 	<button type="submit">送信</button>
+</form>
 </body>
 </html>
